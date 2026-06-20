@@ -1,0 +1,204 @@
+{
+  "columns": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "categorical": {
+    "BusinessTravel": [
+      "Non-Travel",
+      "Travel_Frequently",
+      "Travel_Rarely"
+    ],
+    "Department": [
+      "Human Resources",
+      "Research & Development",
+      "Sales"
+    ],
+    "EducationField": [
+      "Human Resources",
+      "Life Sciences",
+      "Marketing",
+      "Medical",
+      "Other",
+      "Technical Degree"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "JobRole": [
+      "Healthcare Representative",
+      "Human Resources",
+      "Laboratory Technician",
+      "Manager",
+      "Manufacturing Director",
+      "Research Director",
+      "Research Scientist",
+      "Sales Executive",
+      "Sales Representative"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single"
+    ],
+    "OverTime": [
+      "No",
+      "Yes"
+    ]
+  },
+  "numeric": {
+    "Age": {
+      "min": 18.0,
+      "max": 60.0
+    },
+    "DailyRate": {
+      "min": 102.0,
+      "max": 1499.0
+    },
+    "DistanceFromHome": {
+      "min": 1.0,
+      "max": 29.0
+    },
+    "Education": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "EnvironmentSatisfaction": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "HourlyRate": {
+      "min": 30.0,
+      "max": 100.0
+    },
+    "JobInvolvement": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "JobLevel": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "JobSatisfaction": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "MonthlyIncome": {
+      "min": 1009.0,
+      "max": 19999.0
+    },
+    "MonthlyRate": {
+      "min": 2094.0,
+      "max": 26999.0
+    },
+    "NumCompaniesWorked": {
+      "min": 0.0,
+      "max": 9.0
+    },
+    "PercentSalaryHike": {
+      "min": 11.0,
+      "max": 25.0
+    },
+    "PerformanceRating": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "RelationshipSatisfaction": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "StockOptionLevel": {
+      "min": 0.0,
+      "max": 3.0
+    },
+    "TotalWorkingYears": {
+      "min": 0.0,
+      "max": 40.0
+    },
+    "TrainingTimesLastYear": {
+      "min": 0.0,
+      "max": 6.0
+    },
+    "WorkLifeBalance": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "YearsAtCompany": {
+      "min": 0.0,
+      "max": 40.0
+    },
+    "YearsInCurrentRole": {
+      "min": 0.0,
+      "max": 18.0
+    },
+    "YearsSinceLastPromotion": {
+      "min": 0.0,
+      "max": 15.0
+    },
+    "YearsWithCurrManager": {
+      "min": 0.0,
+      "max": 17.0
+    }
+  },
+  "defaults": {
+    "BusinessTravel": "Travel_Rarely",
+    "Department": "Research & Development",
+    "EducationField": "Life Sciences",
+    "Gender": "Male",
+    "JobRole": "Sales Executive",
+    "MaritalStatus": "Married",
+    "OverTime": "No",
+    "Age": 36.0,
+    "DailyRate": 802.0,
+    "DistanceFromHome": 7.0,
+    "Education": 3.0,
+    "EnvironmentSatisfaction": 3.0,
+    "HourlyRate": 66.0,
+    "JobInvolvement": 3.0,
+    "JobLevel": 2.0,
+    "JobSatisfaction": 3.0,
+    "MonthlyIncome": 4919.0,
+    "MonthlyRate": 14235.5,
+    "NumCompaniesWorked": 2.0,
+    "PercentSalaryHike": 14.0,
+    "PerformanceRating": 3.0,
+    "RelationshipSatisfaction": 3.0,
+    "StockOptionLevel": 1.0,
+    "TotalWorkingYears": 10.0,
+    "TrainingTimesLastYear": 3.0,
+    "WorkLifeBalance": 3.0,
+    "YearsAtCompany": 5.0,
+    "YearsInCurrentRole": 3.0,
+    "YearsSinceLastPromotion": 1.0,
+    "YearsWithCurrManager": 3.0
+  }
+}

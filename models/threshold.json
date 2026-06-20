@@ -1,0 +1,6 @@
+{
+  "model": "LogisticRegression",
+  "threshold": 0.37999999999999995,
+  "target_recall": 0.8,
+  "note": "Met target recall; chose best F1 under the recall constraint."
+}
